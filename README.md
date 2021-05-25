@@ -9,10 +9,10 @@ _* All coding will be done using Python 3 and PyTorch 1.8._
 _* Basic knowledge on Python and Object Oriented Programming is prerequisite for this course._
 
 **Contents**
-* [Day 1 - AM](https://github.com/isaacye/SS2021/tree/main/Day1AM) : Linear model
-* [Day 1 - PM](https://github.com/isaacye/SS2021/tree/main/Day1PM) : Multi-Layer Perceptron
-* [Day 2 - AM](https://github.com/isaacye/SS2021/tree/main/Day2AM) : Convolutional Neural Network
-* [Day 2 - PM](https://github.com/isaacye/SS2021/tree/main/Day2PM) : Recurrent Neural Network
+* [Day 1 - AM](https://github.com/isaacyeSN/SS2021/tree/main/Day1AM) : Linear model
+* [Day 1 - PM](https://github.com/isaacyeSN/SS2021/tree/main/Day1PM) : Multi-Layer Perceptron
+* [Day 2 - AM](https://github.com/isaacyeSN/SS2021/tree/main/Day2AM) : Convolutional Neural Network
+* [Day 2 - PM](https://github.com/isaacyeSN/SS2021/tree/main/Day2PM) : Recurrent Neural Network
 
 ----
 ## Day 1 - Morning (10:00 AM - 12:00 PM)
