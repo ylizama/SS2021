@@ -9,5 +9,8 @@
 :pencil2: Lecture slide
 
 ### Assignment #1 : Single variable linear regression ###
+Single variable linear regression with linear models in PyTorch.
 
-![singlevar_LR](https://github.com/isaacyeSN/SS2021/blob/main/Day1AM/SLR.png | width=150)
+[]<img src="https://github.com/isaacyeSN/SS2021/blob/main/Day1AM/SLR.png" width="450" height="300"/>
+
+:computer:: Start-up code 
