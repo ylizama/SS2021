@@ -18,34 +18,37 @@ _* Basic knowledge on Python and Object Oriented Programming is prerequisite for
 ## Day 1 - Morning (10:00 AM - 12:00 PM)
 
 **What we cover**
-* Training linear model
+* Training linear model for Single/Multi-variable regression
 * Activation functions
 * Loss functions
-* Multi-variable linear regression
+* Optimizer
+
 
 ---
 ## Day 1 - Afternoon (1:30 PM - 5:00 PM)
 
 **What we cover**
-* Multi-Layer Perceptron
+* Multi-Layer Perceptron for linear regression
 * Overfitting
+* Hyper-parameters
 * Advanced techniques: Batch normalization, Xavier initialization, dropout
 
 ---
 ## Day 2 - Morning (10:00 AM - 12:00 PM)
 
 **What we cover**
-* Binary classification
+* Image classification for MNIST
 * Logistic model, cross entropy function
 * Convolutional Neural Network
 * Gradient Vanishing
-
+* How to run PyTorch ML code on Graham in Compute Canada
 
 ---
 ## Day 2 - Afternoon (1:30 PM - 5:00 PM)
 
 **What we cover**
 * Recurrent Neural Network
+* Long Short Term Memory to predict a sine function
 
 ---
 ## Acknowledgement
