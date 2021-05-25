@@ -7,3 +7,7 @@
 * Optimizer
 
 :pencil2: Lecture slide
+
+### Assignment #1 : Single variable linear regression ###
+
+![singlevar_LR](https://github.com/isaacyeSN/SS2021/blob/main/Day1AM/SLR.png)
