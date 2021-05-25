@@ -8,7 +8,7 @@
 
 :pencil2: Lecture slide
 
-:computer:: code for live demo
+:computer:: [[code for live demo]](https://github.com/isaacyeSN/SS2021/blob/main/Day1AM/SS21Day1AM_Lab1_LinearModel.ipynb)
 
 ### Assignment #1 : Single variable linear regression ###
 Single variable linear regression with linear models in PyTorch.
