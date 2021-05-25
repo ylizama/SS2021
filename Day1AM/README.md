@@ -1,9 +1,9 @@
-# Day 1 Morning
+## Day 1 - Morning (10:00 AM - 12:00 PM)
 
-## What we cover
-* Training linear model
+**What we cover**
+* Training linear model for Single/Multi-variable regression
 * Activation functions
 * Loss functions
-* Multi-variable linear regression
+* Optimizer
 
 :pencil2: Lecture slide
