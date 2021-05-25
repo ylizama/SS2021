@@ -1,8 +1,9 @@
-# Day 2 Afternoon
+# Day 2 - Afternoon (1:30 PM - 5:00 PM)
 
-## What we cover
-* Convolutional Neural Network
+**What we cover**
 * Recurrent Neural Network
+* Long Short Term Memory to predict a sine function
+
 
 ---
 ### Setting up virtual environment in Graham
