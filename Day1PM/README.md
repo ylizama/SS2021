@@ -7,3 +7,7 @@
 * Advanced techniques: Batch normalization, Xavier initialization, dropout
 
 :pencil2: Lecture slide
+
+:computer:: [[code for live demo]](https://github.com/isaacyeSN/SS2021/blob/main/Day1PM/SS21Day1PM_Lab2_MLP.ipynb)
+
+:computer:: [[code for live demo (full)]] - TBU
