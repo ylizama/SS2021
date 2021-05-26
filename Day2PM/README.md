@@ -6,16 +6,21 @@
 
 :pencil2: Lecture slide
 
-:computer:: Lab 6 [[code for live demo]](https://github.com/isaacyeSN/SS2021/blob/main/Day2AM/SS21Day2AM_Lab4_MNIST.ipynb)
-
-:computer:: Lab 6 (CIFAR10+CNN/MLP) [[code for live demo (full)]] - TBU
-
-
 ### Assignment #2 : Image classification (CIFAR10) ###
+
+__CIFAR-10 with MLP and CNN__
 
 <img src="https://github.com/isaacyeSN/SS2021/blob/main/Day2PM/cifar-10.png" width="450" height="300"/>
 
-:computer:: [[start-up code]](https://github.com/isaacyeSN/SS2021/blob/main/Day1AM/SS21Day1AM_Assignment.ipynb)
+:computer:: [[start-up code]](https://github.com/isaacyeSN/SS2021/blob/main/Day2PM/SS21Day2PM_Assignment.ipynb)
+
+:computer:: [[start-up code (full)]] - TBU
+
+---
+
+:computer:: Lab 6 [[start-up code]](https://github.com/isaacyeSN/SS2021/blob/main/Day2PM/SS21Day2PM_Lab6_LSTM.ipynb)
+
+:computer:: Lab 6 (Sine Function + LSTM) [[start-up code (full)]] - TBU
 
 ---
 ### Setting up virtual environment in Graham
