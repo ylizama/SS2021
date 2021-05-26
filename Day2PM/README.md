@@ -13,7 +13,7 @@
 
 ### Assignment #2 : Image classification (CIFAR10) ###
 
-<img src="https://github.com/isaacyeSN/SS2021/blob/main/Day2PM/cifar10.png" width="450" height="300"/>
+<img src="https://github.com/isaacyeSN/SS2021/blob/main/Day2PM/cifar-10.png" width="450" height="300"/>
 
 :computer:: [[start-up code]](https://github.com/isaacyeSN/SS2021/blob/main/Day1AM/SS21Day1AM_Assignment.ipynb)
 
