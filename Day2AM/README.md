@@ -8,3 +8,9 @@
 * How to run PyTorch ML code on Graham in Compute Canada
 
 :pencil2: Lecture slide
+
+:computer:: Lab 4/5 [[code for live demo]](https://github.com/isaacyeSN/SS2021/blob/main/Day2AM/SS21Day2AM_Lab4_MNIST.ipynb)
+
+:computer:: Lab 4 (MNIST+MLP) [[code for live demo (full)]] - TBU
+
+:computer:: Lab 5 (MNIST+CNN) [[code for live demo (full)]] - TBU
