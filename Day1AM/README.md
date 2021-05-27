@@ -6,11 +6,19 @@
 * Loss functions
 * Optimizer
 
-:pencil2: Lecture slide
+---
+
+**Day 1 Morning lecture clip**
+
+Click here! [![Day1 Intro](https://github.com/isaacyeSN/SS2021/blob/main/Day1AM/youtubelogo.png)](http://www.youtube.com/watch?v=HmQXIah9s1M "Day1 AM Intro")
+
+:pencil2: Lecture slide - TBU
 
 :computer:: Lab 1 [[code for live demo]](https://github.com/isaacyeSN/SS2021/blob/main/Day1AM/SS21Day1AM_Lab1_LinearModel.ipynb)
 
 :computer:: Lab 1 (LR + Linear Model) [[code for live demo (full)]] - TBU
+
+---
 
 ### Assignment #1 : Single variable linear regression ###
 Single variable linear regression with linear models in PyTorch.
