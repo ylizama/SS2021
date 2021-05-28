@@ -6,7 +6,9 @@
 * Hyper-parameters
 * Advanced techniques: Batch normalization, Xavier initialization, dropout
 
-:pencil2: Lecture slide
+:pencil2: Lecture Day1PM-1
+
+:pencil2: Lecture Day1PM-2
 
 :computer:: Lab 2/3 [[code for live demo]](https://github.com/isaacyeSN/SS2021/blob/main/Day1PM/SS21Day1PM_Lab2_MLP.ipynb)
 
