@@ -26,7 +26,7 @@ __CIFAR-10 with MLP and CNN__
 :computer:: Lab 6 (Sine Function + LSTM) [[start-up code (full)]] - TBU
 
 ---
-### Setting up virtual environment in Graham
+## Setting up virtual environment in Graham
 
 Virtual Environment(VE) supported by Python is a working place only for your work, so you can add/delete any packages you need. Here we practice to install necessary packages for ML framework - PyTorch. 
 
@@ -102,4 +102,72 @@ print(torch.__version__)
 ![virtualenv6](https://github.com/isaacye/SS2021/blob/main/Day1AM/ve6.png)
 
 ---
-### Running your code in Graham
+
+#### Running a DL code on `_interactively_` in Graham ####
+
+1. Make a directory and upload your source code into it.
+
+    ```
+   cd /home/$USER
+   mkdir /home/$USER/scratch/$USER/ML
+   ```
+   
+
+2. Start interactive running mode with CPU/GPU in Graham 
+   
+   **For CPU**:
+   
+   ```
+    salloc --time=0:30:0 --ntasks=1 --cpus-per-task=3 --mem=1000M --account=def-training-wa_cpu --reservation=snss-wr_gpu 
+   ```
+
+   **For GPU**:
+   
+   ```
+    salloc --time=0:30:0 --ntasks=2 --gres=gpu:2 --cpus-per-task=3 --mem=1000M --account=def-training-wa_gpu --reservation=snss-wr_gpu 
+   ```
+
+3. virtual environment (make sure you load python and scipy-stack module)
+
+    ```
+    module load python
+    module load scipy-stack
+    source ~/ENV/bin/activate
+    ```
+
+4. Run it 
+    ```
+    python SS20_lab3_LR_MLPg.py
+    ```
+    
+#### Running a DL code `_via scheduler_` in Graham ####
+
+1.  Write a submission script 'job_s.sh' like below using text editor  
+    ```
+    #!/bin/bash
+    #
+    #SBATCH --nodes=1
+    #SBATCH --gres=gpu:t4:1
+    #SBATCH --mem=20000M
+    #SBATCH --time=0-30:00
+    #SBATCH --account=def-training-wa
+    #SBATCH --reservation=snss20_wr_gpu
+    #SBATCH --output=slurm.%x.%j.out
+    
+    module load python scipy-stack
+    source ~/ENV/bin/activate
+    cd /home/$USER/scratch/$USER/SS2020V2_ML_Day2/Session_3
+    python /home/$USER/scratch/$USER/SS2020V2_ML_Day2/Session_3/SS20_lab3_LR_MLPg.py
+    
+    ```
+    
+4. Submit it
+    ```
+    sbatch job_s.sh
+    ```
+
+5. Check the submitted job
+    ```
+    squeue -u $USER
+    ```
+You can find more information at [Compute Canada wiki](https://docs.computecanada.ca/wiki/Running_jobs)
