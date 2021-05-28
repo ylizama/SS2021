@@ -4,7 +4,10 @@
 * Recurrent Neural Network
 * Long Short Term Memory to predict a sine function
 
-:pencil2: Lecture slide
+:pencil2: Lecture slide (Day2PM-1) - TBU
+
+:pencil2: Lecture slide (Day2PM-2) - TBU
+
 
 ### Assignment #2 : Image classification (CIFAR10) ###
 
