@@ -10,7 +10,7 @@
 
 :pencil2: Lecture slide (Day1PM-2) - TBU
 
-:computer:: Lab 2/3 [[code for live demo]](https://github.com/isaacyeSN/SS2021/blob/main/Day1PM/SS21Day1PM_Lab2_MLP.ipynb)
+:computer:: Lab 2/3 [[code for live demo]](https://github.com/isaacyeSN/SS2021/blob/main/Day1PM/SS21_lab2.ipynb)
 
 :computer:: Lab 2 (MLP) [[code for live demo (full)]] - TBU
 
