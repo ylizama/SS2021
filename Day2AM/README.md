@@ -9,7 +9,7 @@
 
 :pencil2: Lecture slide (Day2AM) - TBU
 
-:computer:: Lab 4/5 [[code for live demo]](https://github.com/isaacyeSN/SS2021/blob/main/Day2AM/SS21Day2AM_Lab4_MNIST.ipynb)
+:computer:: Lab 4/5 [[code for live demo]](https://github.com/isaacyeSN/SS2021/blob/main/Day2AM/SS21_lab4.ipynb)
 
 :computer:: Lab 4 (MNIST+MLP) [[code for live demo (full)]] - TBU
 
