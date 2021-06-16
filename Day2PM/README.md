@@ -15,13 +15,13 @@ __CIFAR-10 with MLP and CNN__
 
 <img src="https://github.com/isaacyeSN/SS2021/blob/main/Day2PM/cifar-10.png" width="450" height="300"/>
 
-:computer:: [[start-up code]](https://github.com/isaacyeSN/SS2021/blob/main/Day2PM/SS21Day2PM_Assignment.ipynb)
+:computer:: [[start-up code]](https://github.com/isaacyeSN/SS2021/blob/main/Day2PM/SS21_assgn2.ipynb)
 
 :computer:: [[start-up code (full)]] - TBU
 
 ---
 
-:computer:: Lab 6 [[start-up code]](https://github.com/isaacyeSN/SS2021/blob/main/Day2PM/SS21Day2PM_Lab6_LSTM.ipynb)
+:computer:: Lab 6 [[start-up code]](https://github.com/isaacyeSN/SS2021/blob/main/Day2PM/SS21_lab6.ipynb)
 
 :computer:: Lab 6 (Sine Function + LSTM) [[start-up code (full)]] - TBU
 
