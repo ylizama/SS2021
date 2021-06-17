@@ -26,6 +26,7 @@ __CIFAR-10 with MLP and CNN__
 :computer:: Lab 6 (Sine Function + LSTM) [[start-up code (full)]] - TBU
 
 ---
+
 ## Setting up virtual environment in Graham
 
 Virtual Environment(VE) supported by Python is a working place only for your work, so you can add/delete any packages you need. Here we practice to install necessary packages for ML framework - PyTorch. 
@@ -33,8 +34,8 @@ Virtual Environment(VE) supported by Python is a working place only for your wor
 To create a VE on the clusters do the following:
 ```
 module load StdEnv/2020
-module load python/3.8.2
-module load scipy-stack/2020b
+module load python
+module load scipy-stack
 virtualenv --no-download ~/VENV
 ```
 As you may guess, **VENV** is the name of the virtual environment. (You can choose whatever you want)
@@ -109,7 +110,7 @@ print(torch.__version__)
 
     ```
    cd /home/$USER
-   mkdir /home/$USER/scratch/$USER/ML
+   mkdir /home/$USER/scratch/SS21
    ```
    
 
@@ -118,21 +119,21 @@ print(torch.__version__)
    **For CPU**:
    
    ```
-    salloc --time=0:30:0 --ntasks=1 --cpus-per-task=3 --mem=1000M --account=def-training-wa_cpu --reservation=snss-wr_gpu 
+    salloc --time=0-30:0 --ntasks=1 --cpus-per-task=3 --mem=8G --account=def-training-wa_cpu --reservation=snss-wr_cpu 
    ```
 
    **For GPU**:
    
    ```
-    salloc --time=0:30:0 --ntasks=2 --gres=gpu:2 --cpus-per-task=3 --mem=1000M --account=def-training-wa_gpu --reservation=snss-wr_gpu 
+    salloc --time=0-30:0 --ntasks=1 --gres=gpu:1 --cpus-per-task=3 --mem=8G --account=def-training-wa_gpu --reservation=snss-wr_gpu
    ```
 
-3. virtual environment (make sure you load python and scipy-stack module)
+3. virtual environment
 
     ```
     module load python
     module load scipy-stack
-    source ~/ENV/bin/activate
+    source ~/VENV/bin/activate
     ```
 
 4. Run it 
@@ -146,20 +147,19 @@ print(torch.__version__)
     ```
     #!/bin/bash
     #
-    #SBATCH --nodes=1
-    #SBATCH --ntasks-per-node=2
+    #SBATCH --ntasks=1
     #SBATCH --cpus-per-task=3
-    #SBATCH --gres=gpu:t4:2
-    #SBATCH --mem=20000M
+    #SBATCH --gres=gpu:1
+    #SBATCH --mem=8G
     #SBATCH --time=0-30:00
     #SBATCH --account=def-training-wa_gpu
-    #SBATCH --reservation=snss_wr_gpu
+    #SBATCH --reservation=snss-wr_gpu
     #SBATCH --output=slurm.%x.%j.out
     
     module load python scipy-stack
-    source ~/ENV/bin/activate
-    cd /home/$USER/scratch/$USER/ML
-    python /home/$USER/scratch/$USER/ML/YOUR-PYTHONCODE-NAME.py
+    source ~/VENV/bin/activate
+    cd /home/$USER/scratch/SS21
+    python /home/$USER/scratch/SS21/YOUR-PYTHONCODE-NAME.py
     
     ```
     
