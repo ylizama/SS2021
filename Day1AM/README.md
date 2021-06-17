@@ -8,11 +8,8 @@
 
 ---
 
-:pencil2: Lecture slide (Day1AM) - TBU
-
 :computer:: Lab 1 [[code for live demo]](https://github.com/isaacyeSN/SS2021/blob/main/Day1AM/SS21_lab1.ipynb)
 
-:computer:: Lab 1 (LR + Linear Model) [[code for live demo (full)]] - TBU
 
 ---
 
@@ -22,5 +19,3 @@ Single variable linear regression with linear models in PyTorch.
 <img src="https://github.com/isaacyeSN/SS2021/blob/main/Day1AM/SLR.png" width="450" height="300"/>
 
 :computer:: [[start-up code]](https://github.com/isaacyeSN/SS2021/blob/main/Day1AM/SS21_assgn1.ipynb)
-
-:computer:: [[code (full)]] - TBU
