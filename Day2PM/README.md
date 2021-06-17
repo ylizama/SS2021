@@ -4,11 +4,6 @@
 * Recurrent Neural Network
 * Long Short Term Memory to predict a sine function
 
-:pencil2: Lecture slide (Day2PM-1) - TBU
-
-:pencil2: Lecture slide (Day2PM-2) - TBU
-
-
 ### Assignment #2 : Image classification (CIFAR10) ###
 
 __CIFAR-10 with MLP and CNN__
@@ -17,13 +12,11 @@ __CIFAR-10 with MLP and CNN__
 
 :computer:: [[start-up code]](https://github.com/isaacyeSN/SS2021/blob/main/Day2PM/SS21_assgn2.ipynb)
 
-:computer:: [[start-up code (full)]] - TBU
 
 ---
 
 :computer:: Lab 6 [[start-up code]](https://github.com/isaacyeSN/SS2021/blob/main/Day2PM/SS21_lab6.ipynb)
 
-:computer:: Lab 6 (Sine Function + LSTM) [[start-up code (full)]] - TBU
 
 ---
 
