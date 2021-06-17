@@ -7,6 +7,4 @@
 * Gradient Vanishing
 * How to run PyTorch ML code on Graham in Compute Canada
 
-:pencil2: Lecture slide (Day2AM) - TBU
-
 :computer:: Lab 4/5 [[code for live demo]](https://github.com/isaacyeSN/SS2021/blob/main/Day2AM/SS21_lab4.ipynb)
